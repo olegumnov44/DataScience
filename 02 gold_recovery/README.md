@@ -18,8 +18,6 @@ II. Подготовка дополнительного инструментар
 
 III. Общий вывод.
 
-Описание данных:
-
 
 ## Использованные техники и инструменты:
 - Python, Pandas, Numpy, scikit-learn (GridSearchCV, Linear, DecisionTree, etc)
