@@ -7,7 +7,7 @@
 **Результат:**
 Проведён сравнительный анализ моделей предикции. Выбрана самая эффективная модель в соответствии с критериями заказчика.
 
-**Инструменты и техники:**
+**Применены языки, библиотеки, методы и инструменты:**
 Python, Pandas, Numpy, Seaborn, scikit-learn (OE, OHE, GridSearchCV, Linear, Ridge, DecisionTree, RandomForest, CatBoost, LightGBM, XGB, etc)
 
 ### 2. [*Разработка модели предикции коэффициента восстановления золота*](https://github.com/olegumnov44/DataScience/tree/master/002%20gold_recovery)
@@ -18,7 +18,7 @@ Python, Pandas, Numpy, Seaborn, scikit-learn (OE, OHE, GridSearchCV, Linear, Rid
 **Результат:**
 Проведён сравнительный анализ моделей предикции. Выбрана самая эффективная модель в соответствии с критериями заказчика.
 
-**Инструменты и техники:**
+**Применены языки, библиотеки, методы и инструменты:**
 Python, Pandas, Numpy, scikit-learn (GridSearchCV, Linear, DecisionTree, RandomForest, etc)
 
 ### 3. [*Анализ мирового рынка игр для приставок и ПК*](https://github.com/olegumnov44/DataScience/tree/master/003%20world_market_games)
@@ -28,5 +28,15 @@ Python, Pandas, Numpy, scikit-learn (GridSearchCV, Linear, DecisionTree, RandomF
 **Результат:**
 Проведён сравнительный анализ игровых платформ, жанров игр, распределения по регионам, влияние рейтинга и отзывов.
 
-**Инструменты и техники:**
+**Применены языки, библиотеки, методы и инструменты:**
+Python, Pandas, Numpy, matplotlib, plotly.express, scipy.stats
+
+### 4. [*Исследование надежности заемщиков*](https://github.com/olegumnov44/DataScience/tree/master/004%20credit_scoring)
+**Описание проекта:**
+Определение надёжности различных категорий заёмщиков банка
+
+**Результат:**
+Определены категории заёмщиков более или менее надёжных в отношение возврата кредита
+
+**Применены языки, библиотеки, методы и инструменты:**
 Python, Pandas, Numpy, matplotlib, plotly.express, scipy.stats
