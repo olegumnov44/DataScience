@@ -20,4 +20,4 @@ III. Общий вывод.
 
 
 ## Использованные техники и инструменты:
-- Python, Pandas, Numpy, scikit-learn (GridSearchCV, Linear, DecisionTree, etc)
+- Python, Pandas, Numpy, scikit-learn (GridSearchCV, Linear, DecisionTree, RandomForest, etc)
