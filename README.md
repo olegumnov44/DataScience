@@ -95,3 +95,17 @@ Python, Pandas, Numpy, scikit-learn (GridSearchCV, Linear, DecisionTree, RandomF
 
 **Применены ЯП, библиотеки, методы и инструменты:**
 Python, Pandas, Numpy, scikit-learn (GridSearchCV, Linear, DecisionTree, RandomForest, dummy, metrics, utils, etc)
+
+### 9. [*Выбор локации для нефтяной скважины*](https://github.com/olegumnov44/DataScience/tree/master/009%20find_location_hell)
+**Описание проекта:**
+Допустим, вы работаете в добывающей компании «ГлавРосГосНефть». Нужно решить, где бурить новую скважину.
+Вам предоставлены пробы нефти в трёх регионах: в каждом 10 000 месторождений, где измерили качество нефти и объём её запасов. Постройте модель машинного обучения, которая поможет определить регион, где добыча принесёт наибольшую прибыль. Проанализируйте возможную прибыль и риски техникой Bootstrap.
+
+Цель:
+- определить регион, где добыча принесёт наибольшую среднюю прибыль при вероятности убытков менее 2,5%.
+
+**Результат:**
+Достигнуты указанные цели
+
+**Применены ЯП, библиотеки, методы и инструменты:**
+Python, Pandas, Numpy, scikit-learn (GridSearchCV, Linear, dummy, metrics, utils, etc), matplotlib, scipy.stats
