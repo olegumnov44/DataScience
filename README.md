@@ -67,4 +67,17 @@ Python, Pandas, Numpy, Seaborn, matplotlib, plotty.express
 Достигнуты указанные цели
 
 **Применены ЯП, библиотеки, методы и инструменты:**
-Python, Pandas, Numpy, Seaborn, SciPy, matplotlib, plotty.express 
+Python, Pandas, Numpy, Seaborn, SciPy, matplotlib, plotty.express
+
+### 7. [*Рекомендация тарифов*](https://github.com/olegumnov44/DataScience/tree/master/007%20tariff_mobile_predict)
+**Описание проекта:**
+На основании данных о поведении клиентов, которые уже перешли на эти тарифы (из проекта курса «Статистический анализ данных»). Нужно построить модель для задачи классификации, которая предугадает подходящий тариф для клиента.
+
+Цель:
+- разработать модель предикции выбора тарифа клиентом с точностью не менее 0.75.
+
+**Результат:**
+Достигнуты указанные цели
+
+**Применены ЯП, библиотеки, методы и инструменты:**
+Python, Pandas, Numpy, scikit-learn (GridSearchCV, Linear, DecisionTree, RandomForest, dummy, metrics, etc)
