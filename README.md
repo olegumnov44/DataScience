@@ -82,7 +82,7 @@ Python, Pandas, Numpy, Seaborn, SciPy, matplotlib, plotty.express
 **Применены ЯП, библиотеки, методы и инструменты:**
 Python, Pandas, Numpy, scikit-learn (GridSearchCV, Linear, DecisionTree, RandomForest, dummy, metrics, etc)
 
-### 8. [*Рекомендация тарифов*](https://github.com/olegumnov44/DataScience/tree/master/008%20clients_bank_loss)
+### 8. [*Прогноз поведения клиентов банка*](https://github.com/olegumnov44/DataScience/tree/master/008%20clients_bank_loss)
 **Описание проекта:**
 Из «Бета-Банка» стали уходить клиенты. Каждый месяц. Немного, но заметно. Банковские маркетологи посчитали: сохранять текущих клиентов дешевле, чем привлекать новых.
 Нужно спрогнозировать, уйдёт клиент из банка в ближайшее время или нет. Вам предоставлены исторические данные о поведении клиентов и расторжении договоров с банком.
