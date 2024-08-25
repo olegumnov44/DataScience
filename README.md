@@ -122,3 +122,58 @@ Python, Pandas, Numpy, scikit-learn (GridSearchCV, Linear, dummy, metrics, utils
 
 **Применены ЯП, библиотеки, методы и инструменты:**
 Python, Pandas, Numpy, Seaborn, scikit-learn (Linear, metrics, etc)
+
+### 11. [*Разработка модели для определения стоимости автомобилей с пробегом*](https://github.com/olegumnov44/DataScience/tree/master/011%20auto_price_prediction_2)
+**Описание проекта:**
+Сервис по продаже автомобилей с пробегом «Не бит, не крашен» разрабатывает приложение для привлечения новых клиентов. В нём можно быстро узнать рыночную стоимость своего автомобиля. В вашем распоряжении исторические данные: технические характеристики, комплектации и цены автомобилей. Вам нужно построить модель для определения стоимости. 
+
+**Результат:**
+Проведён сравнительный анализ моделей предикции. Выбрана самая эффективная модель в соответствии с критериями заказчика.
+
+**Применены ЯП, библиотеки, методы и инструменты:**
+Python, Pandas, Numpy, Seaborn, scikit-learn (OE, OHE, GridSearchCV, Linear, Ridge, DecisionTree, RandomForest, CatBoost, LightGBM, XGB, etc)
+
+### 12. [**](https://github.com/olegumnov44/DataScience/tree/master/012%20taxi_traffic)
+**Описание проекта:**
+-- 
+
+**Результат:**
+--
+
+**Применены ЯП, библиотеки, методы и инструменты:**
+Python, Pandas, Numpy, Seaborn, scikit-learn (Linear, Ridge, BayesianRidge, LassoLars, TheilSenRegressor, PassiveAggressiveRegressor, ARDRegression,
+SGDRegressor, DecisionTreeRegressor, RandomForestRegressor, ExtraTreesRegressor, GradientBoostingRegressor, metrics, etc),
+LightGBMRegressor, CatBoostRegressor, XGBRegressor, SARIMAX, statsmodels
+
+### 13. [**](https://github.com/olegumnov44/DataScience/tree/master/013%20toxic_comments)
+**Описание проекта:**
+-- 
+
+**Результат:**
+--
+
+**Применены ЯП, библиотеки, методы и инструменты:**
+Python, Pandas, Numpy, Seaborn, Matplotlib, scikit-learn (Logistic, SGDClassifier, DecisionTree, RandomForest, ExtraTrees, CatBoost, LGBM, XGB
+GridSearchCV, RandomizedSearchCV, metrics, etc), wordcloud, nltk, torch, re, spacy, BERT, TF_IDF, векторизация
+
+### 14. [**](https://github.com/olegumnov44/DataScience/tree/master/014%20age_customer)
+**Описание проекта:**
+-- 
+
+**Результат:**
+--
+
+**Применены ЯП, библиотеки, методы и инструменты:**
+Python, Pandas, Numpy, Seaborn, matplotlib, PIL, scipy, keras, tensorflow, tensorboard,
+GlobalAveragePooling2D, AvgPool2D, Conv2D, Flatten, Dense, Dropout, Adam
+
+### 15. [**](https://github.com/olegumnov44/DataScience/tree/master/015%20steel_temp_prediction)
+**Описание проекта:**
+-- 
+
+**Результат:**
+--
+
+**Применены ЯП, библиотеки, методы и инструменты:**
+Python, Pandas, Numpy, Seaborn, matplotlib, scikit-learn (linear, Logistic, SGDClassifier, DecisionTree, RandomForest, ExtraTrees, CatBoost, LGBM, XGB
+GridSearchCV, RandomizedSearchCV, OHE, OE, pipeline, metrics, etc), shap, tensorflow, statsmodel 
