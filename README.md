@@ -133,46 +133,69 @@ Python, Pandas, Numpy, Seaborn, scikit-learn (Linear, metrics, etc)
 **Применены ЯП, библиотеки, методы и инструменты:**
 Python, Pandas, Numpy, Seaborn, scikit-learn (OE, OHE, GridSearchCV, Linear, Ridge, DecisionTree, RandomForest, CatBoost, LightGBM, XGB, etc)
 
-### 12. [**](https://github.com/olegumnov44/DataScience/tree/master/012%20taxi_traffic)
+### 12. [*Предикция количества заказов такси*](https://github.com/olegumnov44/DataScience/tree/master/012%20taxi_traffic)
 **Описание проекта:**
--- 
+Компания «Чётенькое такси» собрала исторические данные о заказах такси в аэропортах. Чтобы привлекать больше водителей в период пиковой нагрузки, нужно спрогнозировать количество заказов такси на следующий час. Постройте модель для такого предсказания. Значение метрики RMSE на тестовой выборке должно быть не больше 48.
+
+Объект исследования — исторические данные о заказах такси в аэропортах
+
+Цель исследования — построить модель, с ошибкой RMSE менее 48, для определения количества заказов такси на следующий час
 
 **Результат:**
---
+Лучшая модель (CatBoostRegressor) показала результат на тестовой выборке менее 46 и прошла сравнительную проверку на адекватность
 
 **Применены ЯП, библиотеки, методы и инструменты:**
 Python, Pandas, Numpy, Seaborn, scikit-learn (Linear, Ridge, BayesianRidge, LassoLars, TheilSenRegressor, PassiveAggressiveRegressor, ARDRegression,
 SGDRegressor, DecisionTreeRegressor, RandomForestRegressor, ExtraTreesRegressor, GradientBoostingRegressor, metrics, etc),
 LightGBMRegressor, CatBoostRegressor, XGBRegressor, SARIMAX, statsmodels
 
-### 13. [**](https://github.com/olegumnov44/DataScience/tree/master/013%20toxic_comments)
+### 13. [*Разработка модели для определения токсичных комментариев*](https://github.com/olegumnov44/DataScience/tree/master/013%20toxic_comments)
 **Описание проекта:**
--- 
+Интернет-магазин «Викишоп» запускает новый сервис. Теперь пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. То есть клиенты предлагают свои правки и комментируют изменения других. Магазину нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию. Обучите модель классифицировать комментарии на позитивные и негативные. В вашем распоряжении набор данных с разметкой о токсичности правок. Постройте модель со значением метрики качества F1 не меньше 0.75.
+
+Объект исследования — набор данных с разметкой о токсичности правок
+
+Цель исследования — разработать модель классификации комментариев на позитивные и негативные со значением метрики качества F1 не меньше 0.75
 
 **Результат:**
---
+Модель LogisticRegression даёт лучший результат на всех видах выборок с выбранными размерами (более 0,78)
 
 **Применены ЯП, библиотеки, методы и инструменты:**
 Python, Pandas, Numpy, Seaborn, Matplotlib, scikit-learn (Logistic, SGDClassifier, DecisionTree, RandomForest, ExtraTrees, CatBoost, LGBM, XGB
 GridSearchCV, RandomizedSearchCV, metrics, etc), wordcloud, nltk, torch, re, spacy, BERT, TF_IDF, векторизация
 
-### 14. [**](https://github.com/olegumnov44/DataScience/tree/master/014%20age_customer)
+### 14. [*Определение возраста пользователей*](https://github.com/olegumnov44/DataScience/tree/master/014%20age_customer)
 **Описание проекта:**
--- 
+Сетевой супермаркет «Хлеб-Соль» внедряет систему компьютерного зрения для обработки фотографий покупателей. Фотофиксация в прикассовой зоне поможет определять возраст клиентов, чтобы:
+
+Анализировать покупки и предлагать товары, которые могут заинтересовать покупателей этой возрастной группы;
+
+Контролировать добросовестность кассиров при продаже алкоголя.
+
+Необходимо построить модель, которая по фотографии определит приблизительный возраст человека.
 
 **Результат:**
---
+По итогам отбора определены гиперпараметры лучшего результата работы нейронной сети, при которой получено минимальное значение контрольной метрики:
+mae = 5.33:
+
+- horizontal_flip=True, rotate_rate=0, width_shift_range=0.
+- learning_rate=0.0001
+- epochs=109
 
 **Применены ЯП, библиотеки, методы и инструменты:**
 Python, Pandas, Numpy, Seaborn, matplotlib, PIL, scipy, keras, tensorflow, tensorboard,
 GlobalAveragePooling2D, AvgPool2D, Conv2D, Flatten, Dense, Dropout, Adam
 
-### 15. [**](https://github.com/olegumnov44/DataScience/tree/master/015%20steel_temp_prediction)
+### 15. [*Разработка модели предикции температуры стали*](https://github.com/olegumnov44/DataScience/tree/master/015%20steel_temp_prediction)
 **Описание проекта:**
--- 
+Чтобы оптимизировать производственные расходы, металлургический комбинат «Стальная птица» решил уменьшить потребление электроэнергии на этапе обработки стали. Для этого комбинату нужно контролировать температуру сплава. Ваша задача — построить модель, которая будет её предсказывать.
+
+Заказчик хочет использовать разработанную модель для имитации технологического процесса. Ниже расскажем о деталях этого процесса. Их важно знать, прежде чем генерировать новые признаки. Контрольная метрика MAE на тестовой выборке должна быть не более 6,8 градусов.
 
 **Результат:**
---
+Лучшая модель имеет MAE 6.25 на обучающих данных, параметры {'num_leaves': 5, 'n_estimators': 120, 'max_depth': 90}. MAE на тестовых данных: 5.95.
+Самыми важными признаками для модели градиентного бустинга являются начальная температура и продолжительность подогрева.
+
 
 **Применены ЯП, библиотеки, методы и инструменты:**
 Python, Pandas, Numpy, Seaborn, matplotlib, scikit-learn (linear, Logistic, SGDClassifier, DecisionTree, RandomForest, ExtraTrees, CatBoost, LGBM, XGB
